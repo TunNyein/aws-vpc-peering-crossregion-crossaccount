@@ -23,7 +23,7 @@ Goal: Establish VPC peering connections between these VPCs to enable secure, pri
 ---
 ***Note :*** VPC Peering does not support transitive peering. If VPC A is peered with VPC B and C , VPC B cannot communicate with VPC C through VPC A.
 
-***Expected Result**
+***Expected Result***
 
 At the end of this lab:
 
@@ -91,7 +91,7 @@ terraform apply -auto-approve
 
 ## Verification
 
-- 1. SSH into the public EC2 instance.
+- SSH into the public EC2 instance.
 
 ```bash
 ssh -i hub-ssh-key.pem ec2-user@<public-ec2-public-ip>
