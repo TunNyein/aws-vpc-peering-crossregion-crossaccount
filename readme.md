@@ -8,11 +8,11 @@ VPC Peering solves this by establishing a private network connection between VPC
 
 In this lab, I will create a three-VPC architecture to explore both same-account and cross-account cross-region VPC peering.
 
-- VPC-A and VPC-B → Same AWS account, same region
+- **VPC-A** and **VPC-B** → Same AWS account, same region
 
-- VPC-C → Different AWS account, different region
+- **VPC-C** → Different AWS account, different region
 
-Goal: Establish VPC peering connections between these VPCs to enable secure, private communication across same-account and cross-account environments.
+**Goal**: Establish VPC peering connections between these VPCs to enable secure, private communication across same-account and cross-account environments.
 
 ---
 
